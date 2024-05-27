@@ -1,0 +1,19 @@
+@charset "utf-8";
+li{
+    color: mediumturquoise;
+}
+.text-apua{
+    color: aqua;
+}
+#bg-blue{
+    background-color: blue;
+}
+.text-yellowgreen{
+    color: yellowgreen;
+}
+.bg-green{
+    background-color: green;
+}
+span{
+    border: 3px dotted red;
+}
