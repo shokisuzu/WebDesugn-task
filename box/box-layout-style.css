@@ -3,15 +3,22 @@
 h1{
     text-align: center;
 }
+h2{
+    text-align: center;
+    width: 90%;
+}
 p{
     font-size: 10px;
     text-align: left;
     padding: 10px;
+    width: 90%;
 }
 a{
-    background-color: deepskyblue;
+    background: deepskyblue;
     border-radius: 20px;
     padding: 10px;
+    width: 200px;
+    height: 100px;
 }
 .img{
     width: 200px;
