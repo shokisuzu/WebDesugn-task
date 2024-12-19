@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: gray;
+    color: #333;
+    line-height: 1.6;
+}
+/* ヘッダーとヒーローセクション */
+header {
+    background: url('ado-background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    text-align: center;
+}
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+header p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+/* Ado紹介セクション */
+#about {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+#about img {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 2rem;
+    border-radius: 10px;
+}
+/* 代表曲セクション */
+#songs {
+    padding: 4rem 2rem;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.song-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.song {
+    max-width: 300px;
+    margin-bottom: 2rem;
+}
+.song img {
+    width: 100%;
+    border-radius: 10px;
+}
+.song h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+/* ディスコグラフィー */
+#discography {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+.album-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.album {
+    max-width: 200px;
+}
+.album img {
+    width: 100%;
+    border-radius: 10px;
+}
+.album p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+/* ニュースセクション */
+#news {
+    padding: 4rem 2rem;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+#news h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+.news-item {
+    margin-bottom: 1.5rem;
+}
+.news-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+/* フッター */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+footer p {
+    margin: 0.5rem 0;
+}
+footer .socials {
+    margin-top: 0.5rem;
+}
+footer .socials a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+footer .socials i {
+    margin-right: 8px;
+    font-size: 1.5rem;
+}
