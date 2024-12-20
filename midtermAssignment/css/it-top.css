@@ -1,0 +1,38 @@
+@charset "uft-8";
+
+main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.frame{
+    margin-bottom: 2rem;
+    display: flow-root;
+}
+
+float-left {
+    width: 50%;
+    margin: 0 1rem;
+    float: left;
+}
+
+h1 {
+    margin-bottom: 0.8rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+.frame p{
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+}
+th, td{
+    font-size: 20px;
+}
+table, th, td{
+    border: solid 3px black;
+    background-color:  lightblue;
+
+}

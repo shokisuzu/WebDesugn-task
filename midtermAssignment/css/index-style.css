@@ -1,14 +1,21 @@
 @charset "uft-8";
 
-th, td{
-    font-size: 20px;
-}
-table, th, td{
-    border: solid 3px black;
+table {
     border-collapse: collapse;
-    margin-bottom: 20px;
-    background-color:  lightblue;
     text-align: center;
-    width: 40%;
-    padding: 10px;
+    width: 30%;  
+    margin: 0 auto;  
+    border-spacing: 0;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;  
+    text-align: center;  
+}
+th {
+    background-color: aqua;
+}
+
+p{
+    text-align: center;
 }
